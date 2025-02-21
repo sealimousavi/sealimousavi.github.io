@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Set up paths and Jinja2 environment
 CONTENT_DIR = 'content/blog'
-OUTPUT_DIR = 'output/blog'
+OUTPUT_DIR = 'blog'
 TEMPLATE_DIR = 'templates'
 env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
 
@@ -31,7 +31,7 @@ def generate_blog_index(posts):
     """Render the blog index page."""
     template = env.get_template('blog_index.html')
     rendered_html = template.render(posts=posts)
-    with open(os.path.join('output', 'blog', 'index.html'), 'w', encoding='utf-8') as f:
+    with open(os.path.join('blog', 'index.html'), 'w', encoding='utf-8') as f:
         f.write(rendered_html)
 
 def generate_blog_post(post, filename):
