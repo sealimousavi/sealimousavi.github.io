@@ -55,7 +55,7 @@ def build_site():
             file_path = os.path.join(CONTENT_DIR, filename)
             post = parse_markdown(file_path)
             post_url = f"{filename[:-3]}.html"
-            post['url'] = os.path.join('blog', post_url)
+            post['url'] = post_url
             posts.append(post)
             
             # Generate individual blog post page
