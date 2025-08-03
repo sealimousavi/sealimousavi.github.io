@@ -1,5 +1,8 @@
-Title: Learning process 1
+Title: Learning Log 1
 Date: 2025-08-04
+
+
+<div dir="ltr">
 
 ## Learning Log
 
@@ -11,4 +14,6 @@ I've recently restarted my learning journey and decided to log my progress to st
 
 I need to review and practice the web fundamentals like **HTML** and **CSS** again.  
 I'll also use the roadmap from [roadmap.sh](https://roadmap.sh) to guide me along the way.
+
+</div>
 
